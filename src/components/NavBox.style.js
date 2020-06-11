@@ -5,7 +5,7 @@ export const NavBoxWrapper = styled.div`
 	position: fixed;
 	top: 1em;
 	right: 1em;
-	min-width: 20%;
+	width: 20%;
 	border: 1.5px solid rgba(255,255,255,0.2);
 	background-color: rgba(255,255,255,0.05);
 	padding: 0.5em;

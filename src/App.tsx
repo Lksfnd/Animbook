@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter, Route } from "react-router-dom";
 import ViewNav from './components/ViewNav';
 import ViewAnimTrigonometricWaves from './animations/TrigonometricWaves/ViewAnimTrigonometricWave';
+import ViewAnimRotationalWave from './animations/RotationalWaves/ViewAnimRotationalWaves';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
 
         {/* Animations */}
         <Route exact path="/anim/trigonometric-waves" component={ViewAnimTrigonometricWaves} />
+        <Route exact path="/anim/rotating-waves" component={ViewAnimRotationalWave} />
       </BrowserRouter>
     </div>
   );
